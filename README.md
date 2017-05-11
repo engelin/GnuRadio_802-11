@@ -28,7 +28,7 @@ echo "include /root/uhd/host/build/lib" >>/etc/ld.so.conf
 ldconfig
 ```
 
-*UHD image
+* UHD image
 ```bash
 tar -zxvf uhd-images_003.009.001-release
 cd uhd-images*
@@ -36,7 +36,7 @@ cp -r share /home/rin/release_003_009_001/uhd/build
 export UHD_IMAGES_DIR=/home/rin/release_003_009_001/uhd/build/share/uhd/images/
 ```
 
-*Verify installation
+* Verify installation
 ```bash
 ./b2xx_fx3_utils
 ```
@@ -181,7 +181,7 @@ make test
 make install
 ```
 
-*Path setting
+* Path setting
 ```bash
 vi ~/.bashrc
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/dist-packages
@@ -189,7 +189,7 @@ export PATH=/usr/local/bin:$PATH
 ldconfig
 ```
 
-*Run
+* Run
 ```bash
 gnuradio-companion
 ```
