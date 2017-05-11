@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="api_8h" kind="file">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="data__equalizing_8h" local="no">data_equalizing.h</includedby>
+    <includedby refid="data__test_8h" local="no">data_test.h</includedby>
+    <includedby refid="large__fft_8h" local="no">large_fft.h</includedby>
+    <includedby refid="preamble__removal_8h" local="no">preamble_removal.h</includedby>
+    <includedby refid="sig__field__removal_8h" local="no">sig_field_removal.h</includedby>
+    <includedby refid="sym__to__frame_8h" local="no">sym_to_frame.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>sig_field_removal.h</label>
+        <link refid="sig__field__removal_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>data_test_impl.h</label>
+        <link refid="data__test__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>data_equalizing_impl.h</label>
+        <link refid="data__equalizing__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>preamble_removal_impl.h</label>
+        <link refid="preamble__removal__impl_8h"/>
+      </node>
+      <node id="14">
+        <label>sym_to_frame_impl.h</label>
+        <link refid="sym__to__frame__impl_8h"/>
+      </node>
+      <node id="8">
+        <label>large_fft_impl.h</label>
+        <link refid="large__fft__impl_8h"/>
+      </node>
+      <node id="3">
+        <label>data_equalizing.h</label>
+        <link refid="data__equalizing_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>data_test.h</label>
+        <link refid="data__test_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>sig_field_removal_impl.h</label>
+        <link refid="sig__field__removal__impl_8h"/>
+      </node>
+      <node id="13">
+        <label>sym_to_frame.h</label>
+        <link refid="sym__to__frame_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>large_fft.h</label>
+        <link refid="large__fft_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>preamble_removal.h</label>
+        <link refid="preamble__removal_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1adcbf413bea461c9b0f5a1ee7a1cc7269" prot="public" static="no">
+        <name>DATA_EQUALIZING_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/api.h" line="30" bodyfile="/home/esl/naver/gr-data_equalizing/include/data_equalizing/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/api.h"/>
+  </compounddef>
+</doxygen>

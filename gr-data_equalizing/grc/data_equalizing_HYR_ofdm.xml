@@ -1,0 +1,17 @@
+<block>
+  <name>Hyr ofdm</name>
+  <key>data_equalizing_HYR_ofdm</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.HYR_ofdm()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </source>
+</block>

@@ -1,0 +1,17 @@
+<block>
+  <name>Sig field removal</name>
+  <key>data_equalizing_sig_field_removal</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.sig_field_removal()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </source>
+</block>

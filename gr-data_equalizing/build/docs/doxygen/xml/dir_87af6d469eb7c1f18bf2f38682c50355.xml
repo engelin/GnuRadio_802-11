@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_87af6d469eb7c1f18bf2f38682c50355" kind="dir">
+    <compoundname>/home/esl/naver/gr-data_equalizing/include/data_equalizing/</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="data__equalizing_8h">data_equalizing.h</innerfile>
+    <innerfile refid="data__test_8h">data_test.h</innerfile>
+    <innerfile refid="large__fft_8h">large_fft.h</innerfile>
+    <innerfile refid="preamble__removal_8h">preamble_removal.h</innerfile>
+    <innerfile refid="sig__field__removal_8h">sig_field_removal.h</innerfile>
+    <innerfile refid="sym__to__frame_8h">sym_to_frame.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/"/>
+  </compounddef>
+</doxygen>

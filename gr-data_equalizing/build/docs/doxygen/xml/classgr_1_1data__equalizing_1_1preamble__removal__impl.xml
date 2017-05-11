@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1data__equalizing_1_1preamble__removal__impl" kind="class" prot="public">
+    <compoundname>gr::data_equalizing::preamble_removal_impl</compoundname>
+    <basecompoundref refid="classgr_1_1data__equalizing_1_1preamble__removal" prot="public" virt="non-virtual">gr::data_equalizing::preamble_removal</basecompoundref>
+    <includes refid="preamble__removal__impl_8h" local="no">preamble_removal_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a0e7f48aa1b68d4c4664a52e49b4b8ecc" prot="public" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::data_equalizing::preamble_removal_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="50" bodyfile="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a0e0a9b2b3ddeeb8728e052d365373a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::preamble_removal_impl::preamble_removal_impl</definition>
+        <argsstring>()</argsstring>
+        <name>preamble_removal_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a1178701aaaa9de442bccbab012da60ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::preamble_removal_impl::~preamble_removal_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~preamble_removal_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a84eccc188fe7a985cbc4ad3bf2abd87e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::data_equalizing::preamble_removal_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1ab7c487074af39a53daef835c375fc882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_equalizing::preamble_removal_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a75f773f7a0a18742938d8e13797f1271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::data_equalizing::preamble_removal_impl::data_to_symbol</definition>
+        <argsstring>(gr_complex *data, gr_complex *out, int len)</argsstring>
+        <name>data_to_symbol</name>
+        <param>
+          <type>gr_complex *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>gr_complex *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="516">
+        <label>gr::data_equalizing::preamble_removal</label>
+        <link refid="classgr_1_1data__equalizing_1_1preamble__removal"/>
+      </node>
+      <node id="515">
+        <label>gr::data_equalizing::preamble_removal_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1preamble__removal__impl"/>
+        <childnode refid="516" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="518">
+        <label>gr::data_equalizing::preamble_removal</label>
+        <link refid="classgr_1_1data__equalizing_1_1preamble__removal"/>
+      </node>
+      <node id="517">
+        <label>gr::data_equalizing::preamble_removal_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1preamble__removal__impl"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" line="31" bodyfile="/home/esl/naver/gr-data_equalizing/lib/preamble_removal_impl.h" bodystart="30" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a0e7f48aa1b68d4c4664a52e49b4b8ecc" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a75f773f7a0a18742938d8e13797f1271" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>data_to_symbol</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a84eccc188fe7a985cbc4ad3bf2abd87e" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1ab7c487074af39a53daef835c375fc882" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal_1a369b99556918b49cdeb3ffa9390c0985" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a0e0a9b2b3ddeeb8728e052d365373a5a" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>preamble_removal_impl</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal_1acc04244853010bb2c1465c7be90483c3" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1preamble__removal__impl_1a1178701aaaa9de442bccbab012da60ed" prot="public" virt="non-virtual"><scope>gr::data_equalizing::preamble_removal_impl</scope><name>~preamble_removal_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

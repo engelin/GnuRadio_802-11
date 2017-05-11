@@ -1,0 +1,17 @@
+<block>
+  <name>Large fft</name>
+  <key>data_equalizing_large_fft</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.large_fft()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>128</vlen>
+  </source>
+</block>

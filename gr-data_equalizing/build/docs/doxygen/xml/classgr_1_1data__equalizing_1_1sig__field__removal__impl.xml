@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1data__equalizing_1_1sig__field__removal__impl" kind="class" prot="public">
+    <compoundname>gr::data_equalizing::sig_field_removal_impl</compoundname>
+    <basecompoundref refid="classgr_1_1data__equalizing_1_1sig__field__removal" prot="public" virt="non-virtual">gr::data_equalizing::sig_field_removal</basecompoundref>
+    <includes refid="sig__field__removal__impl_8h" local="no">sig_field_removal_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a2bf0aa757c43b792cd632d5e723744a7" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::data_equalizing::sig_field_removal_impl::d_nsym</definition>
+        <argsstring></argsstring>
+        <name>d_nsym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="46" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ae00defd02d5397c88b9894d64ad93888" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::data_equalizing::sig_field_removal_impl::nframe</definition>
+        <argsstring></argsstring>
+        <name>nframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="47" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a5cb2349af03041a92243a28d8bce827c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::sig_field_removal_impl::sig_field_removal_impl</definition>
+        <argsstring>()</argsstring>
+        <name>sig_field_removal_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ada60b386a3ded7c1073b74db41b4ec64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::sig_field_removal_impl::~sig_field_removal_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~sig_field_removal_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ad60f42c81c97c3660806b48344b7ff16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::data_equalizing::sig_field_removal_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a83af800fc3592395881f2c6b57f89349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_equalizing::sig_field_removal_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="564">
+        <label>gr::data_equalizing::sig_field_removal_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl"/>
+        <childnode refid="565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>gr::data_equalizing::sig_field_removal</label>
+        <link refid="classgr_1_1data__equalizing_1_1sig__field__removal"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="566">
+        <label>gr::data_equalizing::sig_field_removal_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="567">
+        <label>gr::data_equalizing::sig_field_removal</label>
+        <link refid="classgr_1_1data__equalizing_1_1sig__field__removal"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" line="30" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sig_field_removal_impl.h" bodystart="29" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a2bf0aa757c43b792cd632d5e723744a7" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>d_nsym</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ad60f42c81c97c3660806b48344b7ff16" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a83af800fc3592395881f2c6b57f89349" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal_1aedba47b607fe91905475cafd15b4681e" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ae00defd02d5397c88b9894d64ad93888" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>nframe</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1a5cb2349af03041a92243a28d8bce827c" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>sig_field_removal_impl</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal_1a2d78861694d6c5c2e53c17310bc4a0df" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sig__field__removal__impl_1ada60b386a3ded7c1073b74db41b4ec64" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sig_field_removal_impl</scope><name>~sig_field_removal_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

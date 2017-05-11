@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1data__equalizing_1_1sym__to__frame__impl" kind="class" prot="public">
+    <compoundname>gr::data_equalizing::sym_to_frame_impl</compoundname>
+    <basecompoundref refid="classgr_1_1data__equalizing_1_1sym__to__frame" prot="public" virt="non-virtual">gr::data_equalizing::sym_to_frame</basecompoundref>
+    <includes refid="sym__to__frame__impl_8h" local="no">sym_to_frame_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1abd429eee720dacd3a9443314f60e5e08" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::data_equalizing::sym_to_frame_impl::d_nsym</definition>
+        <argsstring></argsstring>
+        <name>d_nsym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="46" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a8e26a5bb54f8e5a2eed609fc8f843c4d" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::data_equalizing::sym_to_frame_impl::nFrame</definition>
+        <argsstring></argsstring>
+        <name>nFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="47" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1ae01681c8ab4b0c2b677d656e98fbe2f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::sym_to_frame_impl::sym_to_frame_impl</definition>
+        <argsstring>()</argsstring>
+        <name>sym_to_frame_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a7ef7a06d1a83c6462bdd798afb13c0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::sym_to_frame_impl::~sym_to_frame_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~sym_to_frame_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1ac9e7f36bffd70be39f96362ebe5e5409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::data_equalizing::sym_to_frame_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a7d3c228bcc742006fa491db00b62812d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_equalizing::sym_to_frame_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="596">
+        <label>gr::data_equalizing::sym_to_frame</label>
+        <link refid="classgr_1_1data__equalizing_1_1sym__to__frame"/>
+      </node>
+      <node id="595">
+        <label>gr::data_equalizing::sym_to_frame_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl"/>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="598">
+        <label>gr::data_equalizing::sym_to_frame</label>
+        <link refid="classgr_1_1data__equalizing_1_1sym__to__frame"/>
+      </node>
+      <node id="597">
+        <label>gr::data_equalizing::sym_to_frame_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl"/>
+        <childnode refid="598" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" line="30" bodyfile="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h" bodystart="29" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1abd429eee720dacd3a9443314f60e5e08" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>d_nsym</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1ac9e7f36bffd70be39f96362ebe5e5409" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a7d3c228bcc742006fa491db00b62812d" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame_1a5401921f79fb71fcd586ecbf18771503" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a8e26a5bb54f8e5a2eed609fc8f843c4d" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>nFrame</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame_1a7cf21249d0067cd9738a6c4e6d57fbb7" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1ae01681c8ab4b0c2b677d656e98fbe2f3" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>sym_to_frame_impl</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl_1a7ef7a06d1a83c6462bdd798afb13c0af" prot="public" virt="non-virtual"><scope>gr::data_equalizing::sym_to_frame_impl</scope><name>~sym_to_frame_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

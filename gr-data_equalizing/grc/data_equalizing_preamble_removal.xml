@@ -1,0 +1,15 @@
+<block>
+  <name>Preamble removal</name>
+  <key>data_equalizing_preamble_removal</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.preamble_removal()</make>
+  <sink>
+    <name>in</name>
+    <type>message</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

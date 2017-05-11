@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio DATA_EQUALIZING C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the DATA_EQUALIZING GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="sym__to__frame__impl_8h" kind="file">
+    <compoundname>sym_to_frame_impl.h</compoundname>
+    <includes refid="sym__to__frame_8h" local="no">data_equalizing/sym_to_frame.h</includes>
+    <incdepgraph>
+      <node id="88">
+        <label>data_equalizing/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="86">
+        <label>sym_to_frame_impl.h</label>
+        <link refid="sym_to_frame_impl.h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="87">
+        <label>data_equalizing/sym_to_frame.h</label>
+        <link refid="sym__to__frame_8h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1data__equalizing_1_1sym__to__frame__impl" prot="public">gr::data_equalizing::sym_to_frame_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1data__equalizing">gr::data_equalizing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/lib/sym_to_frame_impl.h"/>
+  </compounddef>
+</doxygen>

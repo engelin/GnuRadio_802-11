@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="large__fft_8h" kind="file">
+    <compoundname>large_fft.h</compoundname>
+    <includes refid="api_8h" local="no">data_equalizing/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="large__fft__impl_8h" local="no">large_fft_impl.h</includedby>
+    <incdepgraph>
+      <node id="42">
+        <label>data_equalizing/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="44">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="41">
+        <label>large_fft.h</label>
+        <link refid="large_fft.h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="46">
+        <label>large_fft_impl.h</label>
+        <link refid="large__fft__impl_8h"/>
+      </node>
+      <node id="45">
+        <label>large_fft.h</label>
+        <link refid="large_fft.h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1data__equalizing_1_1large__fft" prot="public">gr::data_equalizing::large_fft</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1data__equalizing">gr::data_equalizing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h"/>
+  </compounddef>
+</doxygen>

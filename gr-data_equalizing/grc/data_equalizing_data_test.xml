@@ -1,0 +1,17 @@
+<block>
+  <name>Data test</name>
+  <key>data_equalizing_data_test</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.data_test()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>48</vlen>
+  </source>
+</block>

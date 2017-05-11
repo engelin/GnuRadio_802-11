@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1data__equalizing_1_1data__test__impl" kind="class" prot="public">
+    <compoundname>gr::data_equalizing::data_test_impl</compoundname>
+    <basecompoundref refid="classgr_1_1data__equalizing_1_1data__test" prot="public" virt="non-virtual">gr::data_equalizing::data_test</basecompoundref>
+    <includes refid="data__test__impl_8h" local="no">data_test_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1data__equalizing_1_1data__test__impl_1a535e195c6702a9dc75beb84d97d79ae7" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::data_equalizing::data_test_impl::d_nsym</definition>
+        <argsstring></argsstring>
+        <name>d_nsym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="46" bodyfile="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1data__test__impl_1a8b926e091fbeee4b39539499d1b59e21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::data_test_impl::data_test_impl</definition>
+        <argsstring>()</argsstring>
+        <name>data_test_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1data__test__impl_1a34d62290b2fbeab185a604ffcdf19b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_equalizing::data_test_impl::~data_test_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~data_test_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1data__test__impl_1a6c1bd71f28c1d8aea87eaab7228d0f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::data_equalizing::data_test_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1data__test__impl_1a2b81c8d7e09518c1925ae52ec30933f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_equalizing::data_test_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="281">
+        <label>gr::data_equalizing::data_test</label>
+        <link refid="classgr_1_1data__equalizing_1_1data__test"/>
+      </node>
+      <node id="280">
+        <label>gr::data_equalizing::data_test_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1data__test__impl"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>gr::data_equalizing::data_test</label>
+        <link refid="classgr_1_1data__equalizing_1_1data__test"/>
+      </node>
+      <node id="282">
+        <label>gr::data_equalizing::data_test_impl</label>
+        <link refid="classgr_1_1data__equalizing_1_1data__test__impl"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" line="30" bodyfile="/home/esl/naver/gr-data_equalizing/lib/data_test_impl.h" bodystart="29" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__equalizing_1_1data__test__impl_1a535e195c6702a9dc75beb84d97d79ae7" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>d_nsym</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test__impl_1a8b926e091fbeee4b39539499d1b59e21" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>data_test_impl</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test__impl_1a6c1bd71f28c1d8aea87eaab7228d0f9d" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test__impl_1a2b81c8d7e09518c1925ae52ec30933f8" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test_1aea6cb1a3173c8bed30beaaf35d6d9d66" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test_1af865551313c67bea0fe1393e6678a4c2" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1data__test__impl_1a34d62290b2fbeab185a604ffcdf19b9a" prot="public" virt="non-virtual"><scope>gr::data_equalizing::data_test_impl</scope><name>~data_test_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="namespacegr_1_1data__equalizing" kind="namespace">
+    <compoundname>gr::data_equalizing</compoundname>
+    <innerclass refid="classgr_1_1data__equalizing_1_1data__equalizing" prot="public">gr::data_equalizing::data_equalizing</innerclass>
+    <innerclass refid="classgr_1_1data__equalizing_1_1data__test" prot="public">gr::data_equalizing::data_test</innerclass>
+    <innerclass refid="classgr_1_1data__equalizing_1_1large__fft" prot="public">gr::data_equalizing::large_fft</innerclass>
+    <innerclass refid="classgr_1_1data__equalizing_1_1preamble__removal" prot="public">gr::data_equalizing::preamble_removal</innerclass>
+    <innerclass refid="classgr_1_1data__equalizing_1_1sig__field__removal" prot="public">gr::data_equalizing::sig_field_removal</innerclass>
+    <innerclass refid="classgr_1_1data__equalizing_1_1sym__to__frame" prot="public">gr::data_equalizing::sym_to_frame</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/data_equalizing.h" line="29"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<block>
+  <name>Sym to frame</name>
+  <key>data_equalizing_sym_to_frame</key>
+  <category>DATA_EQUALIZING</category>
+  <import>import data_equalizing</import>
+  <make>data_equalizing.sym_to_frame()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>64</vlen>
+  </source>
+</block>

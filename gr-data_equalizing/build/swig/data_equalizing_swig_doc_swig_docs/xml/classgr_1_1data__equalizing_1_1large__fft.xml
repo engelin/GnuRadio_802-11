@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1data__equalizing_1_1large__fft" kind="class" prot="public">
+    <compoundname>gr::data_equalizing::large_fft</compoundname>
+    <includes refid="large__fft_8h" local="no">large_fft.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1data__equalizing_1_1large__fft_1af6e1ec074cbdfe46d1d68a5a1e6bd710" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1data__equalizing_1_1large__fft" kindref="compound">large_fft</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;large_fft&gt; gr::data_equalizing::large_fft::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h" line="39" bodyfile="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1data__equalizing_1_1large__fft_1a889f52bee3b4d00c89a16ccf1fca7633" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1data__equalizing_1_1large__fft_1af6e1ec074cbdfe46d1d68a5a1e6bd710" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::data_equalizing::large_fft::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1data__equalizing_1_1large__fft" kindref="compound">data_equalizing::large_fft</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1data__equalizing_1_1large__fft" kindref="compound">data_equalizing::large_fft</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1data__equalizing_1_1large__fft_1a889f52bee3b4d00c89a16ccf1fca7633" kindref="member">data_equalizing::large_fft::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h" line="37" bodyfile="/home/esl/naver/gr-data_equalizing/include/data_equalizing/large_fft.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__equalizing_1_1large__fft_1a889f52bee3b4d00c89a16ccf1fca7633" prot="public" virt="non-virtual"><scope>gr::data_equalizing::large_fft</scope><name>make</name></member>
+      <member refid="classgr_1_1data__equalizing_1_1large__fft_1af6e1ec074cbdfe46d1d68a5a1e6bd710" prot="public" virt="non-virtual"><scope>gr::data_equalizing::large_fft</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
