@@ -36,7 +36,7 @@ cp -r share /home/rin/release_003_009_001/uhd/build
 export UHD_IMAGES_DIR=/home/rin/release_003_009_001/uhd/build/share/uhd/images/
 ```
 
-* Verify installation
+* Checking installation
 ```bash
 ./b2xx_fx3_utils
 ```
